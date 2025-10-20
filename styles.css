@@ -73,3 +73,35 @@ button {
     max-width: 400px;
     max-height: 300px;
 }
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+}
+
+.info-item img {
+    width: 150px;
+    height: 150px;
+}
+
+.image-subtext {
+    color: #1f2937;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-top: 32px;
+}
+
