@@ -3,52 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Landing Page Example with Flexbox</title>
 </head>
 <body>
 
     <div class="header">
-        <img src="images/logoipsum-366.svg" height="50" alt="A logo to fill-in the layout.">
+        <img src="images/logoipsum-366.svg" alt="A logo to fill-in the layout.">
         <ul>
-            <li>header link one</li>
-            <li>header link two</li>
-            <li>header link three</li>
+            <li><a href="#">header link one</a></li>
+            <li><a href="#">header link two</a></li>
+            <li><a href="#">header link three</a></li>
         </ul>
     </div>
 
-    <div class="title">This website is awesome</div>
+    <div class="body">
+        <div class="title-container">
+            <div class="title-info">
+                <div class="title">This website is awesome</div>
 
-    <div class="description">
-        This website has some subtext that goes here under the main title.
-        It's a smaller font and the color is lower contrast.
-    </div>
+                <div class="description">
+                    This website has some subtext that goes here under the main title.
+                    It's a smaller font and the color is lower contrast.
+                </div>
 
-    <img src="images/main.jpg" alt="A pier reaching out into the ocean" width="400" height="300">
+                <button class="sign-up"><a href="#">Sign up</a></button>
+            </div>
 
-    <div class="subtitle">Some random information.</div>
+            <div class="title-image">
+                <img src="images/main.jpg" alt="A pier reaching out into the ocean">
+            </div>
+        </div>
 
-    <img src="images/item-1.jpg" height="150" width="150" alt="A city by the sea.">
-    <div class="image-subtext">This is some subtext under an illustration or image</div>
+        <div class="info-header">Some random information.</div>
 
-    <img src="images/item-2.jpg" height="150" width="150" alt="View of a mountain valley.">
-    <div class="image-subtext">This is some subtext under an illustration or image</div>
+        <img src="images/item-1.jpg" height="150" width="150" alt="A city by the sea.">
+        <div class="image-subtext">This is some subtext under an illustration or image</div>
 
-    <img src="images/item-3.jpg" height="150" width="150" alt="A trail leading through the mountains.">
-    <div class="image-subtext">This is some subtext under an illustration or image</div>
+        <img src="images/item-2.jpg" height="150" width="150" alt="View of a mountain valley.">
+        <div class="image-subtext">This is some subtext under an illustration or image</div>
 
-    <img src="images/item-4.jpg" height="150" width="150" alt="A cement bulding.">
-    <div class="image-subtext">This is some subtext under an illustration or image</div>
+        <img src="images/item-3.jpg" height="150" width="150" alt="A trail leading through the mountains.">
+        <div class="image-subtext">This is some subtext under an illustration or image</div>
 
-    <div class="quote">Many men go fishing all of their lives without knowing that it is not fish they are after</div>
-    <div class="quote-author">- Henry David Thoreau</div>
+        <img src="images/item-4.jpg" height="150" width="150" alt="A cement bulding.">
+        <div class="image-subtext">This is some subtext under an illustration or image</div>
 
-    <div class="quote">Time is but the stream I go a-fishing in. I drink at it; but while I drink I see the sandy bottom and detect how shallow it is. Its thin current slides away, but eternity remains.</div>
-    <div class="quote-author">- Henry David Thoreau</div>
+        <div class="quote">Many men go fishing all of their lives without knowing that it is not fish they are after</div>
+        <div class="quote-author">- Henry David Thoreau</div>
 
-    <div class="call-to-action">
-        <div class="action-header">Call to action! It's Time!</div>
-        <div class="action-description">Sign up for our product by clicking the button right over there!</div>
-        <button class="sign-up">Sign up</button>
+        <div class="quote">Time is but the stream I go a-fishing in. I drink at it; but while I drink I see the sandy bottom and detect how shallow it is. Its thin current slides away, but eternity remains.</div>
+        <div class="quote-author">- Henry David Thoreau</div>
+
+        <div class="call-to-action">
+            <div class="action-header">Call to action! It's Time!</div>
+            <div class="action-description">Sign up for our product by clicking the button right over there!</div>
+            <button class="sign-up">Sign up</button>
+        </div>
     </div>
 
     <div class="footer">
